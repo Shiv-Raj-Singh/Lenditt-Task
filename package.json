@@ -1,0 +1,29 @@
+{
+  "name": "lenditt-task",
+  "version": "1.0.0",
+  "description": "- ### Use Nodejs with (postgresql or mysql)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shiv-Raj-Singh/Lenditt-Task.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shiv-Raj-Singh/Lenditt-Task/issues"
+  },
+  "homepage": "https://github.com/Shiv-Raj-Singh/Lenditt-Task#readme",
+  "dependencies": {
+    "cryptr": "^6.2.0",
+    "dotenv": "^16.1.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mongoose": "^7.2.2",
+    "mysql2": "^3.3.3"
+  }
+}

@@ -8,7 +8,8 @@
 - Phone numbers should be encrypted in database
 
 ### Body
-```{
+```
+{
    { 
     userId: 1, 
     Contacts: [
@@ -39,16 +40,20 @@
 - Query {“searchNumber”: “2234567777”} 
  
  ### Expected response 
-```{ 
+```
+{ 
 “Name”: “sahil”, 
 “commonUsers”: [1,2] 
 } 
 ```
 
-``` - Query {“searchNumber”: “6657991246”}```
+```
+ Query {“searchNumber”: “6657991246”}
+```
 
 ### Expected response 
-```{ 
+```
+{ 
 “Name”: “darshan”, 
 “commonUsers”: [2] 
 }
@@ -62,7 +67,8 @@
 - Query {“userId”: 2, “page: 1, “PageSize”: 2} 
 
 ### Expected response 
-```{ 
+```
+{ 
 “totalCount”: 3, 
 “rows”: [ 
     {“name”: “rahil”, “number”: “1234567890”},
@@ -70,13 +76,18 @@
      ] 
 } 
 ```
-```{ 
+```
+{ 
 “totalCount”: 1, 
 “rows”: [ 
 {“name”: “rahil”, “number”: “1234567890”} 
 ] 
-} ```
+} 
+```
 
-- ```Query {“userId”: 2, “page: 1, “PageSize”: 2 ,”searchText: “rah”} ```
+-
+```
+    Query {“userId”: 2, “page: 1, “PageSize”: 2 ,”searchText: “rah”} 
+```
 
 
